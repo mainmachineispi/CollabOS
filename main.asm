@@ -12,5 +12,16 @@ jmp $
 %include print32.asm
 %include switch32.asm
 
+[bits 32]
+
+BEGIN_PM:
+    mov ebx, MSG_PROT_MODE
+    call print_string_pm
+    jmp $
+    
+MSG_REAL_MODE db '16-Bit OK ', 0
+MSG_PROT_MODE db '32-Bit OK', 0
+
+
 times 510 - ($-$$) db 0
 dw 0xaa55
