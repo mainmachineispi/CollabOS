@@ -10,5 +10,8 @@ call main ; hopefully i know enough 'bout asm and this works
 
 jmp $ ; hang
 
+
+%include screen.asm
+
 times 510 - ($-$$) db 0
 dw 0xaa55
