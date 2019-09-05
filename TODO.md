@@ -1,4 +1,4 @@
- - [ x ] Print text to screen
+ - [x] Print text to screen
  - [ ] Add a command interpreter
  - [ ] Add filesystem support
  - [ ] Add seperate sandboxed users
