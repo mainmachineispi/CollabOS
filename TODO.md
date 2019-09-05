@@ -1,0 +1,7 @@
+ - [ ] Print text to screen
+ - [ ] Add a command interpreter
+ - [ ] Add filesystem support
+ - [ ] Add seperate sandboxed users
+ - [ ] Make collab vm bot built-in to automatically switch users based on username
+ - [ ] Create PRO edition
+ - [ ] Profit
