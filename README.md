@@ -5,4 +5,4 @@
 
  - Simplicity
 
- - 32 *and* 16-bit computationz
+ - 32 *and* 16-bit computations
