@@ -1,5 +1,5 @@
 all:
-	mkdir bin > /dev/null
+	mkdir bin
 	nasm -f bin main.asm -o bin/collabos.bin
 	
 test:
