@@ -1,2 +1,2 @@
 language: generic
-script: make
+script: sudo apt install nasm -y && make
