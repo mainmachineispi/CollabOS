@@ -1,2 +1,9 @@
 language: generic
 script: sudo apt install nasm -y && make
+deploy:
+  provider: releases
+  api_key:
+    secure: YvY+xQq3SFetiYLrnQMVadj2+0GFMEVX/gHeHwc08OFf7q8VgJ/Dlk3G0CiM536zJVMqiTurgVevZDPDkl3HolzHM7aAez9c/2ZpS9opQBDYltSOeM4UNq13fQ0QmIIqj3cJ/lcrL6m+aUqWwaLGLoeMmNytRXRkKvf3ew+R4MuHnYPiGyD2tDWa9dMGsepsGjYhhAGsUA9BASZ0LxU5rnYd5aS8TDPNxfI1P6NiBaint0tIHYrV0FNH0xjtS/R4HyBJAvvukm8eVHbKf93B3mQ/Hm4rP0tK1UxQEPbokgr91EvUSZ1Wmj+cQEz/4oH+k6eDpjWhG1iiBR3KV43jui/gQy+CGcvfuFdbHTsrWKqdkiN1XnEhu3Zo/8fxVBO596hNVnwaUfD9c37qOYhY4hqyIqJWCJWsyWM1qBM3NnBtmliBqfMWTeJ1a4xT8o3qyBLZsOQ5fcfAdc3RhPjBPaHANkZWzcMGxJ+wg/+hdBQbfWJnVd5TR2YobiL/Wkhcx/on6UjR8tp+akoDi0yDfhp3QSr2u/wPzkec+Cgpj05/4rI6lZxDktX49zMKETyQkmBEX/nF+0PqRQukXvBMon4HwLfpO5r8r7WLzbvtx9WeOTssTEZoEVdkls63zihbPToPnuG2/Iz0RXdY/AFza1bTMkR9jcF/GaXsndJQNNs=
+  file: bin/collabos.bin
+  on:
+    repo: mainmachineispi/CollabOS
