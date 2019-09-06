@@ -1,2 +1,2 @@
 language: generic
-script: make clean && make
+script: make
