@@ -20,9 +20,6 @@ BEGIN_PM:
     
 MSG_REAL_MODE db '16-Bit OK ', 0
 MSG_PROT_MODE db '32-Bit OK', 0
-call nl
-color equ 0x0a
-MSG_REAL_MODE db 'Welcome to CollabOS!'
 
 
 times 510-($-$$) db 0
