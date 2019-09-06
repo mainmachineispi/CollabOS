@@ -1,6 +1,7 @@
 [bits 32]
 
 VIDEO_MEMORY equ 0xb8000
+WOB equ 0x0f
 
 print_string_pm:
     pusha
@@ -8,7 +9,7 @@ print_string_pm:
 
 print_string_pm_loop:
     mov al, [ebx]
-    mov ah, color ; Dynamic!
+    mov ah, WOB
     cmp al, 0
     je print_string_pm_done
     mov [edx], ax

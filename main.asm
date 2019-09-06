@@ -1,6 +1,5 @@
 [org 0x7c00]
     mov bp, 0x9000
-    color equ 0x0f
     mov sp, bp
     mov bx, MSG_REAL_MODE
     call print
