@@ -7,10 +7,10 @@ call print
 call switch_to_pm
 jmp $
 
-%include screen.asm
-%include gdt32.asm
-%include print32.asm
-%include switch32.asm
+%include "screen.asm"
+%include "gdt32.asm"
+%include "print32.asm"
+%include "switch32.asm"
 
 [bits 32]
 
