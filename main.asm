@@ -19,7 +19,7 @@ BEGIN_PM:
     jmp $
     
 MSG_REAL_MODE db '16-Bit OK ', 0
-MSG_PROT_MODE db '32-Bit OK', 0
+MSG_PROT_MODE db '32-Bit OK ', 0
 
 
 times 510-($-$$) db 0
