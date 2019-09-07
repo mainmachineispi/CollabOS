@@ -16,6 +16,7 @@
 - qemu-system (since some distros are confusing you may need to install this seperately)
 ## Build Instructions
 Simply run `make clean && make` 
+Do not use `make clean` if you are on Windows, use `make winclean`
 
 -------------
 # How to run
@@ -23,3 +24,4 @@ Simply run `make clean && make`
 Simply run `make test`
 ## If you downloaded from releases
 CD into your download folder and run `qemu-system-i386 collabos.bin` (make sure you have qemu and qemu-system installed!)
+ 
