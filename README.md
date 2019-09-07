@@ -24,3 +24,4 @@ Do not use `make clean` if you are on Windows, use `make winclean`
 Simply run `make test`
 ## If you downloaded from releases
 CD into your download folder and run `qemu-system-i386 collabos.bin` (make sure you have qemu and qemu-system installed!)
+ 
