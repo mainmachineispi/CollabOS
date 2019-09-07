@@ -16,8 +16,8 @@
 - qemu-system (since some distros are confusing you may need to install this seperately)
 ## Build Instructions
 Simply run `make clean && make` 
-## Note to windows people 
-Do not use `make clean`, use `make winclean`
+Do not use `make clean` if you are on Windows, use `make winclean`
+
 -------------
 # How to run
 ## If you built
